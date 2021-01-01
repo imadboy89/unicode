@@ -1,18 +1,18 @@
 self.__precacheManifest = [
   {
-    "revision": "7067ceeef4a335cc4a0a",
-    "url": "/unicode/static/js/app.4b2b5e49.chunk.js"
+    "revision": "e89f43a1333fd7ef9599",
+    "url": "/unicode/static/js/app.5fc964f0.chunk.js"
   },
   {
     "revision": "62f60001a036a159ff04",
     "url": "/unicode/static/js/runtime~app.83ddfce1.js"
   },
   {
-    "revision": "6ebca74f0a18771e97bd",
-    "url": "/unicode/static/js/2.9260fdcf.chunk.js"
+    "revision": "1285870339fd4a132843",
+    "url": "/unicode/static/js/2.b229a9d8.chunk.js"
   },
   {
-    "revision": "066950d47b6cd56cc42da5392ec2150f",
+    "revision": "d9c1f1de81c0153ec4f0e0bd648b4d59",
     "url": "/unicode/index.html"
   },
   {
@@ -29,7 +29,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/unicode/static/js/2.9260fdcf.chunk.js.LICENSE.txt"
+    "url": "/unicode/static/js/2.b229a9d8.chunk.js.LICENSE.txt"
   },
   {
     "revision": "d324ddc823eca6c86688f62576c81e76",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/unicode/favicon.ico"
   },
   {
-    "revision": "3a344eaa162ab6b2d2906c490775bdef",
+    "revision": "18ecc2e7ea34af2836d9d06f5dd8b9d9",
     "url": "/unicode/manifest.json"
   }
 ];

@@ -1,22 +1,22 @@
 {
   "files": {
-    "app.js": "/unicode/static/js/app.717bc987.chunk.js",
-    "app.js.map": "/unicode/static/js/app.717bc987.chunk.js.map",
+    "app.js": "/unicode/static/js/app.3a6c89aa.chunk.js",
+    "app.js.map": "/unicode/static/js/app.3a6c89aa.chunk.js.map",
     "runtime~app.js": "/unicode/static/js/runtime~app.83ddfce1.js",
     "runtime~app.js.map": "/unicode/static/js/runtime~app.83ddfce1.js.map",
-    "static/js/2.cced2ddc.chunk.js": "/unicode/static/js/2.cced2ddc.chunk.js",
-    "static/js/2.cced2ddc.chunk.js.map": "/unicode/static/js/2.cced2ddc.chunk.js.map",
+    "static/js/2.d58956ef.chunk.js": "/unicode/static/js/2.d58956ef.chunk.js",
+    "static/js/2.d58956ef.chunk.js.map": "/unicode/static/js/2.d58956ef.chunk.js.map",
     "favicon-16.png": "/unicode/favicon-16.png",
     "favicon-32.png": "/unicode/favicon-32.png",
     "favicon.ico": "/unicode/favicon.ico",
     "index.html": "/unicode/index.html",
     "manifest.json": "/unicode/manifest.json",
     "serve.json": "/unicode/serve.json",
-    "static/js/2.cced2ddc.chunk.js.LICENSE.txt": "/unicode/static/js/2.cced2ddc.chunk.js.LICENSE.txt"
+    "static/js/2.d58956ef.chunk.js.LICENSE.txt": "/unicode/static/js/2.d58956ef.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime~app.83ddfce1.js",
-    "static/js/2.cced2ddc.chunk.js",
-    "static/js/app.717bc987.chunk.js"
+    "static/js/2.d58956ef.chunk.js",
+    "static/js/app.3a6c89aa.chunk.js"
   ]
 }

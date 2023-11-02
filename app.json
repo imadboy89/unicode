@@ -1,32 +1,71 @@
 {
   "expo": {
-    "name": "unicode",
-    "slug": "unicode",
-    "version": "1.0.0",
+    "name": "Unicode Styles",
+    "slug": "unicode-styles",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "primaryColor": "#000",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 5,
+      "url": "https://u.expo.dev/02a1f11d-fe56-444a-a0d0-33695de33b18"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-5231842333475288~7201386299"
+      }
     },
     "android": {
+      "package": "com.imados.unicode",
+      "versionCode": 2,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#000"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-5231842333475288~7201386299"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "icon": "./assets/icon.png",
+      "backgroundColor": "#000",
+      "lang": "en",
+      "startUrl": "/unicode",
+      "crossorigin": "no-referrer"
+    },
+    "description": "Text styles and imojis",
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#000"
+    },
+    "androidNavigationBar": {
+      "visible": "sticky-immersive",
+      "barStyle": "dark-content",
+      "backgroundColor": "#000"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "02a1f11d-fe56-444a-a0d0-33695de33b18"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-5231842333475288~7201386299",
+    "ios_app_id": "ca-app-pub-5231842333475288~7201386299",
+    "delay_app_measurement_init": true,
+    "user_tracking_usage_description": "This identifier will be used to deliver personalized ads to you."
   }
 }

@@ -8,7 +8,7 @@
       "distribution": "internal"
     },
     "preview": {
-      "channel" : "2",
+      "channel" : "test2",
       "android": {
         "buildType": "apk"
       }

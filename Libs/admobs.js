@@ -2,7 +2,7 @@ import { Platform } from 'react-native';
 import { AdsConsent, AdsConsentStatus, InterstitialAd, BannerAd,BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
 
 const requestOptions = {
-  keywords: ['health', 'berth','home',"family"],
+  keywords: ['health', 'berth','home',"family","text","fonts"],
 }
 
 function is_test_ads(){
@@ -52,10 +52,11 @@ function BannerAd2(){
   try {  
       const adUnitId = is_test_ads() ? TestIds.BANNER       : global.adUnitId_banner;
       //console.log(adUnitId);
+      //BannerAdSize.ANCHORED_ADAPTIVE_BANNER
       return (
           <BannerAd
             unitId={adUnitId}
-            size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
+            size={BannerAdSize.INLINE_ADAPTIVE_BANNER }
             requestOptions={requestOptions}
           />
         );

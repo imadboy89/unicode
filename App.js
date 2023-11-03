@@ -235,9 +235,10 @@ const styles_light = StyleSheet.create({
         alignItems: 'center',
     },
     ads_view: {
+        backgroundColor: '#ecf0f1',
         width:"98%",
         //flex:1,
-        height:100,
+        height:120,
         alignItems: 'center',
         bottom:0,
         marginVertical:10
@@ -333,9 +334,10 @@ const styles_light = StyleSheet.create({
         alignItems: 'center',
     },
     ads_view: {
+        backgroundColor: '#34495e',
         width:"98%",
         //flex:1,
-        height:100,
+        height:120,
         alignItems: 'center',
         bottom:0,
         marginVertical:10
